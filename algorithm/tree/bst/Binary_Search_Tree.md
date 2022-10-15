@@ -11,19 +11,19 @@ flowchart TD
     1((1)) --- 3((3))
 ```
 
-### Inorder
+### Inorder(중위순회)
 
 > Left &rarr; Root &rarr; Right
 >
 > - 4 &rarr; 2 &rarr; 5 &rarr; 1 &rarr; 3
 
-### Preorder
+### Preorder(전위순회)
 
 > Root &rarr; Left &rarr; Right
 >
 > - 1 &rarr; 2 &rarr; 4 &rarr; 5 &rarr; 3
 
-### Postorder
+### Postorder(후위순회)
 
 > Left &rarr; Right &rarr; Root
 >
