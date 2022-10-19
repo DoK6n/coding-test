@@ -8,6 +8,14 @@
 
 ## Graph 표현 방법
 
+### 기호
+
+> G(V, E) : 정점과 간선으로 이루어진 집합
+
+- G : Graph
+- V : Vertax (정점, 노드)
+- E : Edge (간선)
+
 > Adjacency Matrix, Adjacency List
 
 ### Adjacency Matrix (인접 행렬)
