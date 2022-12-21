@@ -12,9 +12,7 @@ function memoize(callback) {
   return function () {
     const args = Array.prototype.slice.call(arguments);
     callback.cache = callback.cache || {};
-    return callback.cache[args]
-      ? callback.cache[args]
-      : (callback.cache[args] = callback.apply(this, args));
+    return callback.cache[args] ? callback.cache[args] : (callback.cache[args] = callback.apply(this, args));
   };
 }
 
